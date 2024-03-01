@@ -37,7 +37,7 @@ Before running the script, you need to edit the code to include your RealmEye Us
     character_ids = {
     784: "Priest",
     782: "Wizard",
-}
+    }
     ```
 
 ## How to Run
