@@ -5,10 +5,10 @@ RealmEye Character Delogger is a Python script that automatically sets your char
 
     1. Sends a login POST request to RealmEye
     2. Logs the session cookie that is provided when you login to RealmEye
-    3. Sends a delete character POST request to RealmEye using the session cookie.
+    3. Sends a delete character POST request to RealmEye using the session cookie
     4. Repeats every minute for 60 iterations (1 hour)
     5. Sends a logout POST request to RealmEye using your current session cookie for verification
-    6. Sends another login POST request to RealmEye and repeats.
+    6. Sends another login POST request to RealmEye and repeats
     
 Want to keep your RealmEye page fully public, but don't want your characters and fame history to update? 
 
@@ -31,7 +31,7 @@ Want to keep your RealmEye page fully public, but don't want your characters and
     pip install requests
     ```
 
-    ## Configuration
+## Configuration
 
 Before running the script, you need to edit the code to include your RealmEye Username, Password, and characters to automatically remove. Follow the steps below:
 
