@@ -8,7 +8,7 @@ RealmEye Character Delogger is a Python script that automatically sets your char
     5. Sends a logout POST request to RealmEye using your current session cookie for verification
     6. Sends another login POST request to RealmEye and repeats.
     
-Want to keep your RealmEye page fully public, but don't want characters and fame history to update? 
+Want to keep your RealmEye page fully public, but don't want your characters and fame history to update? 
 
 ## Requirements
 
