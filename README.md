@@ -39,7 +39,28 @@ Before running the script, you need to edit the code to include your RealmEye Us
     782: "Wizard",
     }
     ```
-
+Here is a list of all character IDs:
+    ```python
+    768: "Rogue",
+    775: "Archer",
+    782: "Wizard",
+    784: "Priest",
+    785: "Samurai",
+    796: "Bard",
+    797: "Warrior",
+    798: "Knight",
+    799: "Paladin",
+    800: "Assassin",
+    801: "Necromancer",
+    802: "Huntress",
+    803: "Mystic",
+    804: "Trickster",
+    805: "Sorcerer",
+    806: "Ninja",
+    817: "Summoner",
+    818: "Kensei",
+    ```
+    
 ## How to Run
 
 Open command prompt and navigate to the directory where the script is located. Then, run the following command:
