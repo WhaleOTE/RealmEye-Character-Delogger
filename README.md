@@ -7,7 +7,7 @@ RealmEye Character Delogger is a Python script that automatically sets your char
     1. Sends a login POST request to RealmEye
     2. Logs the session cookie that is provided when you login to RealmEye
     3. Sends a delete character POST request to RealmEye using the session cookie
-    4. Repeats every minute for 60 iterations (1 hour)
+    4. Repeats step 3 every minute for 60 iterations (1 hour)
     5. Sends a logout POST request to RealmEye using your current session cookie for verification
     6. Sends another login POST request to RealmEye and repeats
     
