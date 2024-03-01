@@ -23,7 +23,7 @@ Want to keep your RealmEye page fully public, but don't want your characters and
 1. Clone the repository or download the script directly.
 
     ```bash
-    git clone https://github.com/WhaleOTE/Steam-Status-Tracker.git
+    git clone https://github.com/WhaleOTE/RealmEye-Character-Delogger.git
     ```
 
 2. Install the necessary dependencies using pip.
