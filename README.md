@@ -2,7 +2,7 @@
 ![REdelog](https://github.com/WhaleOTE/RealmEye-Character-Delogger/assets/148757860/0263473a-98d8-475d-b0ef-5d0b593da7a0)
 
 # RealmEye-Character-Delogger
-RealmEye Character Delogger is a Python script that automatically sets your character(s) on your RealmEye Page as "Dead" every minute.
+RealmEye Character Delogger is a Python script that automatically sets your character(s) on your RealmEye Page as "Dead" every minute. As of February 29th, 2024, RealmEye does not have a rate limit for profile settings, however, there is a delay for your profile data to update publicly. Intervals can be adjusted to 10 seconds for instant delogging.
 
     1. Sends a login POST request to RealmEye
     2. Logs the session cookie that is provided when you login to RealmEye
@@ -11,7 +11,7 @@ RealmEye Character Delogger is a Python script that automatically sets your char
     5. Sends a logout POST request to RealmEye using your current session cookie for verification
     6. Sends another login POST request to RealmEye and repeats
     
-Want to keep your RealmEye page fully public, but don't want your characters and fame history to update? 
+Want to keep your RealmEye page fully public, but don't want your characters and fame history to update?
 
 ## Requirements
 
