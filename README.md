@@ -1,12 +1,19 @@
 # RealmEye-Character-Delogger
-RealmEye Character Delogger is a Python script that automatically sets your character(s) on your RealmEye as "Dead". 
+RealmEye Character Delogger is a Python script that automatically sets your character(s) on your RealmEye Page as "Dead" every minute.
 
+    1. Sends a login POST request to RealmEye
+    2. Logs the session cookie that is provided when you login to RealmEye
+    3. Sends a delete character POST request to RealmEye using the session cookie.
+    4. Repeats every minute for 60 iterations (1 hour)
+    5. Sends a logout POST request to RealmEye using your current session cookie for verification
+    6. Sends another login POST request to RealmEye and repeats.
+    
 Want to keep your RealmEye page fully public, but don't want characters and fame history to update? 
 
 ## Requirements
 
 - Python 3.x or higher installed. You can download it from [here](https://www.python.org/downloads/).
--RealmEye Profile. You can obtain a password to your RealmEye by messagin [MrEyeball](https://www.realmeye.com/mreyeball) in-game.
+- RealmEye Profile. You can obtain a password to your RealmEye by messaging [MrEyeball](https://www.realmeye.com/mreyeball) in-game.
 
 ## Installation
 
@@ -40,10 +47,27 @@ Before running the script, you need to edit the code to include your RealmEye Us
     }
     ```
     
-Here is a list of all character IDs:
+3. Here is a list of all character IDs. Add them to the current list above to include more characters. By default, the script will remove your Priest and Wizard from your RealmEye
 
     ```python
-    dasdasj
+    768: "Rogue",
+    775: "Archer",
+    782: "Wizard",
+    784: "Priest",
+    785: "Samurai",
+    796: "Bard",
+    797: "Warrior",
+    798: "Knight",
+    799: "Paladin",
+    800: "Assassin",
+    801: "Necromancer",
+    802: "Huntress",
+    803: "Mystic",
+    804: "Trickster",
+    805: "Sorcerer",
+    806: "Ninja",
+    817: "Summoner",
+    818: "Kensei",
     ```
 
 
