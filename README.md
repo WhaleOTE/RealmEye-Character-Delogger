@@ -1,4 +1,5 @@
-![image](https://raw.githubusercontent.com/WhaleOTE/RealmEye-Character-Delogger/main/REdelog.png)
+
+![REdelog](https://github.com/WhaleOTE/RealmEye-Character-Delogger/assets/148757860/0263473a-98d8-475d-b0ef-5d0b593da7a0)
 
 # RealmEye-Character-Delogger
 RealmEye Character Delogger is a Python script that automatically sets your character(s) on your RealmEye Page as "Dead" every minute.
