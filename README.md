@@ -40,6 +40,7 @@ Before running the script, you need to edit the code to include your RealmEye Us
     }
     ```
 Here is a list of all character IDs:
+
     ```python
     768: "Rogue",
     775: "Archer",
