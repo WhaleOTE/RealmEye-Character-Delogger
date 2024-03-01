@@ -83,4 +83,4 @@ Open command prompt and navigate to the directory where the script is located. T
 python REdelog.py
 ```
 
-If `python` isn't recognized, try `py` instead. The script will start monitoring the status of the Steam IDs and will log the data in the specified log files. You can stop the script at any time by pressing `Ctrl + C` in the terminal.
+If `python` isn't recognized, try `py` instead. The script will automatically set your character(s) on your RealmEye Page as "Dead" every minute.
