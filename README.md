@@ -16,7 +16,7 @@ Want to keep your RealmEye page fully public, but don't want your characters and
 ## Requirements
 
 - Python 3.x or higher installed. You can download it from [here](https://www.python.org/downloads/).
-- RealmEye Profile. You can obtain a password to your RealmEye by messaging [MrEyeball](https://www.realmeye.com/mreyeball) in-game.
+- [RealmEye Profile](https://www.realmeye.com/). You can obtain a password to your RealmEye by messaging [MrEyeball](https://www.realmeye.com/mreyeball) in-game.
 
 ## Installation
 
@@ -50,7 +50,7 @@ Before running the script, you need to edit the code to include your RealmEye Us
     }
     ```
     
-3. Here is a list of all character IDs. Add them to the current list above to include more characters. By default, the script will remove your Priest and Wizard from your RealmEye
+3. Here is a list of all character IDs. Add them to the current list above to include more characters. By default, the script will remove your Priest and Wizard from your RealmEye.
 
     ```python
     768: "Rogue",
@@ -84,3 +84,6 @@ python REdelog.py
 ```
 
 If `python` isn't recognized, try `py` instead. The script will automatically set your character(s) on your RealmEye Page as "Dead" every minute.
+
+## Disclaimer
+This script is for educational and demononstration purposes. Use at your own discretion.
